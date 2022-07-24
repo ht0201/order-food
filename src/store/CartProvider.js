@@ -29,6 +29,7 @@ function CartProvider(props) {
     dispatchCartAction({ type: "ADD_ITEM", item });
   };
   const removeItemHandler = (id) => {};
+
   const cartcontext = {
     items: cartState.items,
     totalAmount: cartState.totalAmount,
